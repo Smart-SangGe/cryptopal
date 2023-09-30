@@ -1,6 +1,5 @@
 from Crypto.Util.number import *
 import base64
-import statistics
 
 def hamming_distance(str1: str, str2: str) -> int:
     if len(str1) != len(str2):
